@@ -2,13 +2,13 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
   <servlet>
-    <servlet-name>CuentaUsuarioServlet</servlet-name>
-    <servlet-class>com.gabloz.servlet.CuentaUsuarioServlet</servlet-class>
+    <servlet-name>MobilServlet</servlet-name>
+    <servlet-class>com.gabloz.iaccountant.servlet.MobilServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>CuentaUsuarioServlet</servlet-name>
-    <url-pattern>/CuentaUsuario</url-pattern>
-  </servlet-mapping>
+    <servlet-name>MobilServlet</servlet-name>
+    <url-pattern>/inicioMobil</url-pattern>
+  </servlet-mapping>  
 
   <!-- welcome page -->
   <welcome-file-list>
