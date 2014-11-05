@@ -120,6 +120,10 @@ public class TipoCuentaBO {
 		PreparedQuery pq = ds.prepare(q);
 		Entity cuenta = pq.asSingleEntity();
 		
+		if(cuenta == null) {
+			return "";
+		}
+		
 		return "" + cuenta.getKey().getId();
 	}
 	
